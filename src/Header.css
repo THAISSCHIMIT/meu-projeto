@@ -1,0 +1,17 @@
+/* CSS Flexbox e Gradientes */
+.pokedex-subtitulo{
+  display: flex (rgb(120, 88, 172)); 
+  justify-content: space-between (#ffffff);
+  align-items: center;
+  padding: (1rem 2rem);
+  background: linear-gradient(135deg, #6722b6, #4f9e86);
+  box-shadow: 0 4px 12px rgba(16, 109, 109, 0.15);
+}
+
+.pokedex-header {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+

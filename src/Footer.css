@@ -1,0 +1,42 @@
+.pokedex-footer {
+  background-color: #a28bd8;
+  color: #12171b;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rodape-link {
+  color: #0d131a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.rodape-link:hover {
+  text-decoration: underline;
+  color:aliceblue;
+  gap: 2rem;
+}
+
+/* Foco acessível para navegação via teclado */
+.rodape-link:focus-visible {
+  outline: 3px solid #0a0e0f;
+  outline-offset: 4px;
+}
+
+.nav{
+  display: flex;
+  gap: 1rem;
+}
+
+.rodape-navegacao {
+  display: flex;
+  gap: 1rem;
+}
