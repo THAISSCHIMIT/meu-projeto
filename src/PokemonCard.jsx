@@ -7,7 +7,7 @@ export function PokemonCard({pokemon}) {
     // Tag semântica article encapsulando o cartão
     <article className="pokemon-card">
       <header className="card-header">
-        <span className="pokemon-id">{id}</span>
+        <span className="pokemon-id">{`#${String(id).padStart(3, '0')}`}</span>
         <h2 className="pokemon-name">{name}</h2>
       </header>
 
